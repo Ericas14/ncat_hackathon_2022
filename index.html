@@ -73,59 +73,44 @@
     </div>
 
     <!-- Here is an example of how you might layout your page content -->
-    <div class="row">
-      <div class="col text-center" id="page_content_1">
-          <h2 class="text-center">Sign Up Here!</h2>
-          <!-- Other page content is defined here -->
-
-      </div>
-      <div class="col" id="page_content_2">
-          <h2 class="text-center">Here's the benefits!</h2>
-          <!-- Other page content is defined here -->
-  
-      </div>
-      <div class="col" id="page_content_3">
-          <h2 class="text-center">Testimonials</h2>
-            <!-- Other page content is defined here -->
-      </div>
-    </div>
-
-    <form>
-  <div class="row">
-    <div class="row">
-      <div class="col">
-        <input type="text" class="form-control" style="margin-bottom:10px" placeholder="First name">
-      </div>
-    <div class="col">
-      <input type="text" class="form-control" placeholder="Last name">
-    </div>
-  </div>
-  </div>
-  <div class="row">
-  <div class="form-group">
-    <input type="password" class="form-control" id="exampleInputPassword1" placeholder="Enter Your College/University">
- </div>
-</div>
-  <div class="row">
-    <div class="form-group">
-      <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Enter College/University email">
-  </div>
-</div>
-</div>
-<div class="row">
-  <div class="form-group">
-    <input type="password" class="form-control" id="exampleInputPassword1" placeholder="Password">
-  </div>
-</div>
-  <button type="submit" class="btn btn-primary">Submit</button>
-</div>
-</form>
-    
-    <p class="text-center">
-             Monthly School-wide wishlists currated by students!
-          </p>
+    <table>
+      <tr>
+        <th><h2 class="text-center">Sign Up Here!</h2></th>
+        <th><h2 class="text-center">Here's the benefits!</h2></th>
+        <th><h2 class="text-center">Testimonials</h2></th>
+      </tr>
+      <tr>
+        <td>
+          <table>
+            <form>
+              <tr>
+                <td><input type="text" class="form-control" placeholder="First name">
+                <input type="text" class="form-control" placeholder="Last name"></td>
+              </tr>
+              <tr>
+                <td><input type="text" class="form-control" id="exampleInputSchool" placeholder="Enter Your College/University"></td>
+              </tr>
+              <tr>
+                <td><input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Enter College/University email"></td>
+              </tr>
+              <tr>
+                <td><input type="password" class="form-control" id="exampleInputPassword1"placeholder="Password"></td>
+              </tr>
+              <tr>
+                <td><button type="submit" class="btn btn-primary">Submit</button> </td>
+              </tr>
+            </form>
+          </table>
+        </td>
+        <td>
+          <p class="text-center">Monthly School-wide wishlists currated by students!</p>
           <p class="text-center">Students recieve exclusive donations from donors!</p>
           <p class="text-center">And more!</p>
+        </td>
+        <td>
+          <p class="text-center">Prime Student has helped me recieve items I need to have a great semester - Erica, Student</p>
+          <p class="text-center">I love donating to my alma mater and Prime Student made it even easier! - Lamoye, donor</p>
+        </td>
 
     <!-- ************************************************************************************* -->
     <!--                        JavaScript includes are below                                  -->

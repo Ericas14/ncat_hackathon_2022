@@ -19,18 +19,27 @@ h2 {
 }
 
 p {
-   font-family: 'Amazon-Ember-Bd';
-   font-size: 20px; 
+   font-family: 'Amazon-Ember-Rg';
+   font-size: 20px;
+   padding-left: 40px;
+   padding-bottom: 20px; 
 }
 
 form{
-    margin-left: 20px;
     box-sizing: border-box;
 }
 
-#exampleInputEmail1, #exampleInputPassword1{
-    padding-right: 117px;
+input[type="password"], input[type="email"], #exampleInputSchool{
+    padding-right: 100px;
     box-sizing: content-box;
+}
+
+td, th{
+    padding-left: 100px;
+}
+
+.btn-primary {
+    background-color: #00A8E1;
 }
 
 
