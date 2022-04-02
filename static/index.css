@@ -17,3 +17,20 @@ h2 {
     color: #00A8E1;
     font-size: 36px;
 }
+
+p {
+   font-family: 'Amazon-Ember-Bd';
+   font-size: 20px; 
+}
+
+form{
+    margin-left: 20px;
+    box-sizing: border-box;
+}
+
+#exampleInputEmail1, #exampleInputPassword1{
+    padding-right: 117px;
+    box-sizing: content-box;
+}
+
+
